@@ -1,4 +1,5 @@
 const config = {
+distDir: '/packages/evershop/',
   verbose: true,
   setupFilesAfterEnv: [require.resolve('regenerator-runtime/runtime')],
   testMatch: ['**/packages/evershop/src/**/tests/unit/*.[jt]s?(x)'],
